@@ -1,7 +1,7 @@
 function checkPalindrome(num) {
     let rev = num.toString().split("").reverse().join("");
     if (rev == num) {
-        console.log('This is a palindrome');
+        console.log(`${num} - This is a palindrome`);
     } else {
         console.log('This is not a palindrome');
     }
