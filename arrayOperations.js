@@ -9,3 +9,6 @@ console.log(arr);
 
 // check if an element exists in the array
 console.log(arr.includes(`c`));
+
+// how to find the last element of an array
+console.log(arr[arr.length - 1]);
