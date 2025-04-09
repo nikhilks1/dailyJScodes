@@ -53,22 +53,3 @@ console.log(arr.reduceRight((acc, item) => acc + (item === `c` ? 1 : 0), 0)); //
 console.log(arr.some((item) => item === `c`)); // find the index of c in the array using some method
 // how to find the index of an element in the array using every method
 console.log(arr.every((item) => item === `c`)); // find the index of c in the array using every method
-// how to find the index of an element in the array using forEach method
-console.log(arr.forEach((item) => item === `c`)); // find the index of c in the array using forEach method
-// how to find the index of an element in the array using for of loop
-console.log(arr.forEach((item) => item === `c`)); // find the index of c in the array using for of loop 
-// how to find the index of an element in the array using for in loop
-console.log(arr.forEach((item) => item === `c`)); // find the index of c in the array using for in loop
-// how to find the index of an element in the array using forEach method
-console.log(arr.forEach((item) => item === `c`)); // find the index of c in the array using forEach method
-// how to find the index of an element in the array using forEach method
-console.log(arr.forEach((item) => item === `c`)); // find the index of c in the array using forEach method
-// how to find the index of an element in the array using forEach method
-console.log(arr.forEach((item) => item === `c`)); // find the index of c in the array using forEach method
-// how to find the index of an element in the array using forEach method
-
-
-
-// how to find the index of an element in the array using forEach method
-console.log(arr.forEach((item) => item === `c`)); // find the index of c in the array using forEach method
-// how to find the index of an element in the array using forEach method
