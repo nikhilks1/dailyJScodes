@@ -15,3 +15,7 @@ console.log(str[0]);
 console.log(str[Math.floor(str.length / 2)]);
 // how to find the index of an element in a string
 console.log(str.indexOf(`l`));   
+// how to find the unicode of a character in a string
+console.log(str.charCodeAt(0)); // find the unicode of a character in a string
+// how to find the length of the string
+console.log(str.length);
