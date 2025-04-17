@@ -19,3 +19,8 @@ console.log(str.indexOf(`l`));
 console.log(str.charCodeAt(0)); // find the unicode of a character in a string
 // how to find the length of the string
 console.log(str.length);
+// how to find the last index of an element in a string
+console.log(str.lastIndexOf(`w`)); 
+// how to find the substring of a string
+console.log(str.substring(0, 5)); 
+
