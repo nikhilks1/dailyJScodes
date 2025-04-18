@@ -23,4 +23,17 @@ console.log(str.length);
 console.log(str.lastIndexOf(`w`)); 
 // how to find the substring of a string
 console.log(str.substring(0, 5)); 
-
+// how to find the substring of a string from a given index
+console.log(str.substring(5));
+// how to find the substring of a string from a given index to a given index
+console.log(str.substring(5, 10));
+// how to find the substring of a string from a given index to a given index with a step
+console.log(str.substring(5, 10, 2)); // this will not work as substring does not take step as an argument
+// how to find the substring of a string from a given index to a given index with a step
+console.log(str.substring(5, 10).split(``).filter((_, i) => i % 2 === 0).join(``)); // this will work as we are using filter to get the even index elements
+// how to find the substring of a string from a given index to a given index with a step using regex
+console.log(str.substring(5, 10).match(/.{1,2}/g)); // this will work as we are using regex to get the even index elements      
+// how to find the substring of a string from a given index to a given index with a step using regex and split
+console.log(str.substring(5, 10).split(``).filter((_, i) => i % 2 === 0).join(``)); // this will work as we are using filter to get the even index elements     
+// how to find the substring of a string from a given index to a given index with a step using regex and split and join
+console.log(str.substring(5, 10).split(``).filter((_, i) => i % 2 === 0).join(``)); // this will work as we are using filter to get the even index elements
