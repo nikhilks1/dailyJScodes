@@ -37,3 +37,6 @@ console.log(str.substring(5, 10).match(/.{1,2}/g)); // this will work as we are 
 console.log(str.substring(5, 10).split(``).filter((_, i) => i % 2 === 0).join(``)); // this will work as we are using filter to get the even index elements     
 // how to find the substring of a string from a given index to a given index with a step using regex and split and join
 console.log(str.substring(5, 10).split(``).filter((_, i) => i % 2 === 0).join(``)); // this will work as we are using filter to get the even index elements
+// how to find the substring of a string from a given index to a given index with a step using regex and split and join and map
+console.log(str.substring(5, 10).split(``).filter((_, i) => i % 2 === 0).map((_, i) => i + 1).join(``)); // this will work as we are using filter to get the even index elements and map to get the index of the elements
+// how to find the substring of a string from a given index to a given index with a step using regex and split and join and map and reduce
